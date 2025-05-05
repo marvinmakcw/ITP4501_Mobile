@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.slideshow.SlideshowFragment">
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:adjustViewBounds="true"
+        android:src="@drawable/bc"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:paddingLeft="10dp"
+        android:paddingTop="10dp"
+        android:paddingRight="10dp"
+        android:text="每年2至4月份先開花，後長葉。花朵大型，花冠五瓣，倒卵形狀，兩面都有星狀毛，橙黃或橙紅色。花萼黑褐色，革質。木棉花可入藥，把新鮮掉下來的木棉花曬乾，為涼茶五花茶的主要材料之一。花後結橢圓形蒴果，約在5月時，果實會裂開，內裏的卵圓形種子連同由果皮內壁細胞延伸而成的白色棉絮會隨風四散。棉絮可用以代替棉花來作棉襖的填充料或織成吉布。種子含20%至25%油份，可榨油製成肥皂及機械油；而榨油後的棉餅可作為肥料或家畜飼料。\n\n
+木棉樹樹幹直立有明顯瘤刺；側枝輪生作水平方向開展；掌狀複葉，葉柄很長。木棉外觀多變化：春天時，一樹橙紅；夏天綠葉成蔭；秋天枝葉蕭瑟；冬天禿枝寒樹，四季展現不同的風情。"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView4" />
+</androidx.constraintlayout.widget.ConstraintLayout>

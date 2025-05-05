@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@android:drawable/ic_notification_overlay"
+            android:title="Sakura" />
+        <item
+            android:id="@+id/nav_gallery"
+            android:icon="@android:drawable/presence_busy"
+            android:title="Chinese new year flower" />
+        <item
+            android:id="@+id/nav_slideshow"
+            android:icon="@android:drawable/star_on"
+            android:title="Bombax ceiba" />
+        <item
+            android:id="@+id/nav_about"
+            android:icon="@android:drawable/btn_star"
+            android:title="about" />
+    </group>
+</menu>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:fillViewport="false">
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.home.HomeFragment">
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:adjustViewBounds="true"
+        android:src="@drawable/sakura"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:paddingLeft="10dp"
+        android:paddingTop="10dp"
+        android:paddingRight="10dp"
+        android:text="富士芝櫻位於富士山腳下的山梨縣富士河口湖町，花季約在4月中旬至5月下旬。場內開滿了約80萬株紅、白等5種不同的芝櫻！是日本最大規模賞芝櫻的地方。每年都有絡繹不絕的遊客造訪。粉紅色的芝櫻與富士山的鮮明對比，真的會讓人嘆為觀止！\n\n
+說到櫻花，一般是指在高約5公尺〜15公尺的樹木上盛開､需要抬頭仰望的那種。可是在這裡的櫻花被稱為芝櫻，和盛開在高樹上的櫻花不同。芝櫻是屬於花荵科的多年生草本植物､和屬於薔薇科的「櫻花」本來就是不一樣的品種。在4､5月時，會開出粉紅色､紅色､淺紫色或是白色的花，因為花的形狀和「櫻花」非常相似所以被命名為「芝櫻」。粉紅色和淡紫色的花朵如同地毯一般密密麻麻的盛開著，非常的美麗。這和充滿天際的櫻花相較有著不同的壯觀之美。\n\n
+芝櫻是好像草坪那樣濃密地覆蓋地面生長和開花的植物。惹人憐愛的花瓣形狀與櫻花相似，顏色呈淺粉紅、深粉紅、白色及淺紫，並擁有條紋狀等的花紋，種類相當豐富。\n\n
+位於富士山下的本栖湖附近有芝櫻的群生地，於每年的開花時期都會有「富士芝櫻祭」。在2.4公頃的平原上會有6種約80萬棵以上的芝櫻綻放。一大片層次鮮明的粉紅色土地加上富士山風景非常震撼。芝櫻祭舉辦期間，會場內會準備足浴，遊客可一邊觀賞絕景，一邊治癒旅行的疲勞。此外，在同一會場內亦會進行「富士山美食嘉年華」，予人品嚐日本著名料理及當地的糕點糖果等食品。
+"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/imageView2" />
+</androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

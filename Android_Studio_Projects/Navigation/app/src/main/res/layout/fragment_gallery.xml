@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:fillViewport="false">
+
+
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.gallery.GalleryFragment">
+
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:adjustViewBounds="true"
+        android:src="@drawable/cnyf"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/text_gallery"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        android:paddingLeft="10dp"
+        android:paddingTop="10dp"
+        android:paddingRight="10dp"
+        android:text="吊鐘是本地的原生植物，是杜鵑花科吊鐘屬的多年生落葉灌木，可長至三米高。她的嫩葉呈粉紅色，老葉會轉為紅色；花蕾在頂端的大苞片內長出，呈心形；其花朵特別惹人喜愛，花冠一般呈朱紅或淡粉紅色，也有些近乎白色；約五至八朵一組聚生於頂，每顆如指頭般大，呈鐘狀，花瓣為五裂片，外緣微微外捲。\n\n
+吊鐘的不同部位各具美態：葉子鮮艷亮麗；花蕾含蓄婉約；花朵嬌美玲瓏。有時在春霧之間，花瓣透光半掩，內壁水珠欲滴，更顯其晶瑩剔透。故吊鐘是一種極為可觀可賞的本土野生植物。"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView3"
+        app:layout_constraintVertical_bias="0.093" />
+</androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

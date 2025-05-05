@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">spinner</string>
+    <string-array name="theme_park">
+        <item>海洋公園(香港)</item>
+        <item>迪士尼樂園(東京)</item>
+        <item>六福村(台北)</item>
+        <item>奧爾頓塔(英國)</item>
+        <item>環球影城(美國)</item>
+    </string-array>
+</resources>
