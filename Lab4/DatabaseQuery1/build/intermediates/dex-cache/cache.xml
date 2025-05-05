@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="C:\Users\connieyuen\AndroidStudioProjects\DatabaseQuery1\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="764ff2c7df987500511761fbb45232962234cf2d">
+        <dex dex="C:\Users\connieyuen\AndroidStudioProjects\DatabaseQuery1\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_803c8eec2216777070578eaa24871018a401ec69\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\connieyuen\AndroidStudioProjects\DatabaseQuery1\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="510aa6efc159983dfbffa676a0dae37568c0a46f">
+        <dex dex="C:\Users\connieyuen\AndroidStudioProjects\DatabaseQuery1\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_1ff27ed68c317ebc6323b59ee436fd25d0f64b3c\classes.dex" />
+    </item>
+
+</items>

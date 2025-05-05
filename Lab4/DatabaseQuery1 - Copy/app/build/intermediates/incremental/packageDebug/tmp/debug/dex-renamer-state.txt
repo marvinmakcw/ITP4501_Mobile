@@ -1,0 +1,4 @@
+#Tue Jun 07 14:03:33 CST 2022
+base.0=D\:\\Marvin\\android\\Lab4\\DatabaseQuery1\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\0
+renamed.0=classes.dex
+path.0=classes.dex

@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">SimpleAdder</string>
+    <string name="Calculate">CALCULATE</string>
+</resources>

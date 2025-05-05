@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Lab2Ex1</string>
+    <string name="Red">Red</string>
+    <string name="Yellow">Yellow</string>
+    <string name="Blue">Blue</string>
+    <string name="Green">Green</string>
+    <string name="Purple">Purple</string>
+    <string name="Aqua">Aqua</string>
+</resources>

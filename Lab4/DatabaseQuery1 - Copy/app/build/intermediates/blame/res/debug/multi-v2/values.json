@@ -1,0 +1,26 @@
+{
+    "logs": [
+        {
+            "outputFile": "D:\\Marvin\\android\\Lab4\\DatabaseQuery1\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values\\values.xml",
+            "map": [
+                {
+                    "source": "D:\\Marvin\\android\\Lab4\\DatabaseQuery1\\app\\src\\main\\res\\values\\strings.xml",
+                    "from": {
+                        "startLines": "3,8,2,4,6,5,7",
+                        "startColumns": "1,1,1,1,1,1,1",
+                        "startOffsets": "118,328,52,166,244,208,288",
+                        "endColumns": "47,38,65,41,43,35,39",
+                        "endOffsets": "164,365,116,206,286,242,326"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,5,6,7,8",
+                        "startColumns": "4,4,4,4,4,4,4",
+                        "startOffsets": "55,106,148,217,262,309,348",
+                        "endColumns": "50,41,68,44,46,38,42",
+                        "endOffsets": "101,143,212,257,304,343,386"
+                    }
+                }
+            ]
+        }
+    ]
+}

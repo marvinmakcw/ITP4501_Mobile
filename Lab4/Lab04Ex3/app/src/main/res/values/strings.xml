@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, DatabaseQueryExample!</string>
+    <string name="app_name">DatabaseMemberQuery</string>
+    <string name="btn_DBinitial">Initial</string>
+    <string name="btn_query">Query</string>
+    <dimen name="dataFont">16sp</dimen>
+    <string name="btn_action">Insert, Update and Delete</string>
+</resources>

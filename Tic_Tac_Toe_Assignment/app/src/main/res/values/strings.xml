@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Tic_Tac_Toe_Assignment</string>
+    <string name="app_title">Tic-Tac-Toe</string>
+    <string name="menu_play">PLAY</string>
+    <string name="menu_ranking">GAME RANKING</string>
+    <string name="menu_records">YOUR RECORDS</string>
+    <string name="menu_close">CLOSE</string>
+    <string name="play_text">You O vs CPU X</string>
+    <string name="play_duration">Duration:</string>
+    <string name="play_continue">Continue</string>
+    <string name="records_title">Your Records</string>
+    <string name="records_show">SHOW IN PIE CHART</string>
+</resources>

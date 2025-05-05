@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content" android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_height="wrap_content"
+        android:id="@+id/linearLayout2"
+        android:layout_weight="1"
+        android:layout_width="fill_parent"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10sp">
+
+        <Button
+            android:layout_weight="1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/btn_DBinitial"
+            android:id="@+id/btnDBinitial"
+            android:textSize="12dp">
+        </Button>
+
+        <Button
+            android:layout_weight="1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/btn_query"
+            android:id="@+id/btnQuery"
+            android:textSize="12dp">
+        </Button>
+
+        <Button
+            android:layout_weight="1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/btn_action"
+            android:id="@+id/btnAction"
+            android:textSize="12dp">
+        </Button>
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/data"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:typeface="monospace"
+        android:layout_weight="1"
+        android:textSize="@dimen/dataFont"/>
+
+</LinearLayout>

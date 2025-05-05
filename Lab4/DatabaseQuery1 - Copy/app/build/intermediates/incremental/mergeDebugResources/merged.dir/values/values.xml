@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">DatabaseQuery</string>
+    <string name="btn_show">Show</string>
+    <string name="hello">Hello World, DatabaseQueryExample!</string>
+    <string name="rb_asc">Ascending</string>
+    <string name="rb_desc">Descending</string>
+    <string name="rb_sid">sID</string>
+    <string name="rb_sname">sName</string>
+</resources>

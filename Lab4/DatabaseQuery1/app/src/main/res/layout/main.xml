@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" android:layout_width="fill_parent"
+	android:layout_height="wrap_content">
+	<LinearLayout android:layout_width="fill_parent"
+		android:id="@+id/linearLayout1" android:orientation="vertical"
+		android:layout_height="wrap_content">
+		<TableLayout android:id="@+id/tableLayout1"
+			android:layout_height="wrap_content" android:layout_width="fill_parent">
+			<TableRow android:id="@+id/tableRow1" android:layout_height="fill_parent"
+				android:layout_weight="1" android:layout_width="fill_parent">
+				<RadioGroup android:orientation="horizontal" android:layout_weight="1" android:layout_width="wrap_content">
+					<RadioButton android:layout_height="wrap_content" android:layout_weight="1"
+						android:id="@+id/rb_sID" android:text="@string/rb_sid" android:layout_width="wrap_content" android:checked="true"></RadioButton>
+					<RadioButton android:layout_width="wrap_content"
+						android:layout_height="wrap_content" android:layout_weight="1"
+						android:id="@+id/rb_sName" android:text="@string/rb_sname"></RadioButton>
+				</RadioGroup>
+			</TableRow>
+			<TableRow android:id="@+id/tableRow2" android:layout_height="wrap_content"
+				android:layout_width="wrap_content" android:layout_weight="1">
+				<RadioGroup android:orientation="horizontal" android:layout_width="fill_parent" android:layout_weight="1">
+					<RadioButton android:layout_width="wrap_content"
+						android:layout_height="wrap_content" android:layout_weight="1"
+						android:id="@+id/rb_asc" android:text="@string/rb_asc" android:checked="true"></RadioButton>
+					<RadioButton android:layout_width="wrap_content"
+						android:layout_height="wrap_content" android:layout_weight="1"
+						android:id="@+id/rb_desc" android:text="@string/rb_desc"></RadioButton>
+				</RadioGroup>
+			</TableRow>
+		</TableLayout>
+	</LinearLayout>
+	<LinearLayout android:layout_height="wrap_content"
+		android:layout_width="fill_parent" android:id="@+id/linearLayout2">
+		<Button android:layout_height="wrap_content"
+			android:layout_width="fill_parent" android:text="@string/btn_show" android:id="@+id/btn_show"></Button>
+	</LinearLayout>
+	<TextView android:id="@+id/data" android:layout_width="fill_parent"
+		android:layout_height="wrap_content" android:typeface="monospace"
+		android:textSize="20sp" />
+</LinearLayout>

@@ -1,0 +1,62 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"     xmlns:tools="http://schemas.android.com/tools"     android:layout_width="match_parent "     android:layout_height="match_parent "
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+    <RadioGroup
+        android:id="@+id/rgCoffeeType"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/TextView01"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#701D03"
+            android:text="@string/msgRadioButton"
+            android:textStyle="bold"/>
+
+        <RadioButton
+            android:id="@+id/rbLatte"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/type1"/>
+        <RadioButton
+            android:id="@+id/rbMocha"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/type2"/>
+        <RadioButton
+            android:id="@+id/rbCappuccino"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/type3"/>
+    </RadioGroup>
+
+    <TextView
+        android:id="@+id/tvCoffee"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#701D03"
+        android:text="@string/msgCheckBox"
+        android:textStyle="bold"/>
+
+    <CheckBox
+        android:id="@+id/cbCream"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:text="@string/cream"/>
+
+    <CheckBox
+        android:id="@+id/cbSugar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:text="@string/sugar"/>
+
+    <Button
+        android:id="@+id/btPay"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/pay"/>
+</LinearLayout>

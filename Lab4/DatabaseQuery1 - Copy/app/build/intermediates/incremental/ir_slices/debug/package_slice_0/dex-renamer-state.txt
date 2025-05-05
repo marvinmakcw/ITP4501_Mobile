@@ -1,0 +1,4 @@
+#Thu May 30 13:45:26 HKT 2019
+base.0=/Users/alanpo/Documents/OneDrive - Vocational Training Council - Staff/WorkingVTCDocs/ITP4501_Programming_Techniques_for_Mobile_Systems/2019TLP/4_DataStorage/Lab/Lab_04 - Partial Program/DatabaseQuery1/app/build/intermediates/transforms/dexMerger/debug/0
+path.0=classes.dex
+renamed.0=classes.dex
